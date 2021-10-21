@@ -1,0 +1,278 @@
+body {
+	height:100%;
+	width:100%;
+	background-color: black;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+#container {
+	overflow-x: scroll;
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+/* Sage */
+#container .sage{
+ background-color:#3b623b;
+ animation: example2 60s linear infinite alternate;
+
+
+}
+
+
+
+.square:hover {
+	background-color: orange !important;
+}
+
+.abouticon {
+	height: auto;
+	top: 2vh;
+	left: 2vh;
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/question-mark.png');
+	background-size: cover;
+	/*background-color: blue;*/
+	position: fixed;
+	z-index: 10;
+}
+
+#about {
+	top: 250px;
+	width: 50vw;
+	height: 50vh;
+	min-width: 300px;
+	min-height: 300px;
+	overflow-y: scroll;
+	background-color:  #e6e6e6;
+	margin: 0 auto;
+	z-index: 10;
+	position: relative;
+	font-size: 20px;
+	font-family: courier;
+}
+
+.abouttext {
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.infopanel {
+	height: auto;
+	top: 20px;
+	right: 20px;
+	width: 350px;
+	position: fixed;
+	background-color:  #e6e6e6;
+	z-index: 10;
+	font-size: 20px;
+	font-family: courier;
+
+
+}
+
+.speechpanel {
+	height: 300px;
+/*	right: 390px;*/
+	width: 500px;
+	top: 200px;
+	position: fixed;
+	left: 35vw;
+	background-color: #e6e6e6;
+	z-index: 10;
+	font-size: 20px;
+	padding: 20px;
+	font-family: courier;	
+	overflow-y: scroll;
+}
+
+
+.messagebox {
+	position: relative;
+	width: 70%;
+	padding: 10px;
+	border: 3px solid white;
+	margin-top: 10px;
+	margin-left: 4%;
+	margin-bottom: 4%;
+}
+
+.infotitle {
+	padding: 20px;
+}
+
+.infobox {
+	position: relative;
+	width: 90%;
+	border: 3px solid white;
+	margin-top: 10px;
+	margin-left: 4%;
+	margin-bottom: 4%;
+	background-color: #349155;
+	overflow: auto;
+}
+
+.symbolinfo {
+	padding: 20px;
+}
+
+.companion:hover {
+	border-bottom: 1px dashed;
+	font-weight: bold;
+}
+
+.speechbox {
+	background-color: white;
+	max-width: 150px;
+	z-index: 5;
+	position: absolute;
+	font-family: courier;
+
+}
+
+.artext {
+	margin-top:0px;
+	margin-bottom: 0px;
+	float: right;
+}
+
+/*rocks*/
+.zone1 {
+	background-color:  #7C8D4C;
+
+
+
+}
+
+/*soil*/
+.zone2 {
+	background-color:  #737373;
+
+
+
+}
+
+/*trees*/
+.zone3 {
+	background-color:  #6F7677;
+
+
+
+}
+
+/*compost*/
+.zone4 {
+	background-color:  #7C8D4C;
+	
+
+}
+
+/*path*/
+.zone5 {
+	background-color:  #d9d9bf;
+
+}
+
+/*water*/
+.zone6 {
+	background-color: #617dd1;
+	/*animation: huey 700s linear infinite;*/
+	animation-name: example;
+    animation-duration: 3000s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+      
+
+
+}
+
+@keyframes huey {
+    from {
+        filter: hue-rotate()
+    }
+
+    to {
+        filter: hue-rotate(360deg)
+    }
+}
+
+@keyframes example {
+  from {background-color: #617dd1;}
+  to {background-color: red;}
+}
+
+@keyframes example2 {
+  from {background-color: #7C8D4C;}
+  to {background-color: #664f11;}
+}
+
+@keyframes suntrack {
+  from { transform: rotate(-0.25turn); }
+  to { transform: rotate(0.75turn); }
+}
+@keyframes sunpulse {
+   from { box-shadow: 0 0 100px #ff0, 0 0 100px #ff0; }
+  to { box-shadow: 0 0 50px #ff0, 0 0 75px #ff0;  }
+}
+@keyframes moontrack {
+  from { transform: rotate(-0.75turn); }
+  to { transform: rotate(0.25turn); }
+}
+@keyframes moonpulse {
+   from { box-shadow: 0 0 100px #eee, 0 0 100px #eee; }
+  to { box-shadow: 0 0 50px #eee, 0 0 75px #eee;  }
+}
+body { margin: 0;
+  background-color: #002;
+   min-height: 600vh;
+  height:900%;
+
+}
+.sun {
+  width: 15vw;
+  height: 15vw;
+  background: #ff0;
+  background: radial-gradient(ellipse at center, #f90 0%,#fc0 60%,#ff0 100%);
+  border-radius: 100%;
+  position: absolute;
+  bottom: -7vw;
+  right: 7vw;
+  transform-origin: -28vw 7vw;
+  animation: suntrack 24s infinite linear, sunpulse 2s alternate infinite;
+}
+.moon {
+  background: radial-gradient(ellipse at center, #fff 0%,#eec 60%,#ffe 100%);
+  border-radius: 100%;
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  border-radius: 100%;
+  bottom: -7vw;
+  right: 7vw;
+  transform-origin: -28vw 7vw;
+  animation: moontrack 23s infinite linear, moonpulse 2s alternate infinite;
+  opacity: .9;
+}
+#sky{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900%;
+    background-image: -webkit-linear-gradient(top, rgba(30,152,209,1) 0%, rgb(202, 229, 243) 11%, rgba(125, 185, 232, 0.82) 22%,
+                                                   rgb(240, 231, 26) 33%, rgb(245, 86, 12) 44%,   rgba(197, 127, 81, 0.82) 55%,
+                                                   rgba(5, 5, 5, 1) 66%,  rgb(54, 55, 56) 77%,    rgb(3, 3, 3) 100%);
+
+    animation: changeSkyColor 12s linear infinite alternate;
+}
+@keyframes changeSkyColor {
+    0%{
+        top: 0px;
+    }
+    100%  {
+        top: -800%;
+    }
+}

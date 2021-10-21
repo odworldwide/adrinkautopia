@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'adrinka_okandi';
+  src:  url('adrinka_okandi.eot?mf81ol');
+  src:  url('adrinka_okandi.eot?mf81ol#iefix') format('embedded-opentype'),
+    url('adrinka_okandi.ttf?mf81ol') format('truetype'),
+    url('adrinka_okandi.woff?mf81ol') format('woff'),
+    url('adrinka_okandi.svg?mf81ol#adrinka_okandi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'adrinka_okandi' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adinkrahene:before {
+  content: "\e900";
+}
+.icon-akoben:before {
+  content: "\e901";
+}
+.icon-akofen:before {
+  content: "\e902";
+}
+.icon-akokonan:before {
+  content: "\e903";
+}
+.icon-akoma-ntoso:before {
+  content: "\e904";
+}
+.icon-ananse-ntontan:before {
+  content: "\e905";
+}
+.icon-asase-ye-duru:before {
+  content: "\e906";
+}
+.icon-aya:before {
+  content: "\e907";
+}
+.icon-boa-me-na-me-mmoa-wo:before {
+  content: "\e908";
+}
+.icon-dame-dame:before {
+  content: "\e909";
+}
+.icon-denkyem:before {
+  content: "\e90a";
+}
+.icon-duafe:before {
+  content: "\e90b";
+}
+.icon-dwennimmen:before {
+  content: "\e90c";
+}
+.icon-eban:before {
+  content: "\e90d";
+}
+.icon-epa:before {
+  content: "\e90e";
+}
+.icon-ese-Ne-Tekrema:before {
+  content: "\e90f";
+}
+.icon-fawohodie:before {
+  content: "\e910";
+}
+.icon-fihankra:before {
+  content: "\e911";
+}
+.icon-fofo:before {
+  content: "\e912";
+}
+.icon-funtunfunefu:before {
+  content: "\e913";
+}
+.icon-gye-nyame:before {
+  content: "\e914";
+}
+.icon-hwe-mu-dua:before {
+  content: "\e915";
+}
+.icon-hye-won-hye:before {
+  content: "\e916";
+}
+.icon-kete-pa:before {
+  content: "\e917";
+}
+.icon-kintinkantan:before {
+  content: "\e918";
+}
+.icon-kwatakye-atiko:before {
+  content: "\e919";
+}
+.icon-mate-masie:before {
+  content: "\e91a";
+}
+.icon-me-ware-wo:before {
+  content: "\e91b";
+}
+.icon-mframadan:before {
+  content: "\e91c";
+}
+.icon-mmere-dane:before {
+  content: "\e91d";
+}
+.icon-mpatapo:before {
+  content: "\e91e";
+}
+.icon-mpuannum:before {
+  content: "\e91f";
+}
+.icon-nea-onnim-no-sua-a_-oh:before {
+  content: "\e920";
+}
+.icon-nea-ope-se-obedi-hene:before {
+  content: "\e921";
+}
+.icon-nkonsonkonson:before {
+  content: "\e922";
+}
+.icon-nkyimu:before {
+  content: "\e923";
+}
+.icon-nkyinkyim:before {
+  content: "\e924";
+}
+.icon-nsaa:before {
+  content: "\e925";
+}
+.icon-nsoromma:before {
+  content: "\e926";
+}
+.icon-nyame-Biribi-Wo-Soro:before {
+  content: "\e927";
+}
+.icon-nyame-dua:before {
+  content: "\e928";
+}
+.icon-nyame-nnwu-na-mawu:before {
+  content: "\e929";
+}
+.icon-nyame-nti:before {
+  content: "\e92a";
+}
+.icon-nyame-ye-ohene:before {
+  content: "\e92b";
+}
+.icon-nyansapo:before {
+  content: "\e92c";
+}
+.icon-odo-nnyew-fie-kwan:before {
+  content: "\e92d";
+}
+.icon-okodee-mmowere:before {
+  content: "\e92e";
+}
+.icon-onyankopon-adom-nti-biribiara-beye-yie:before {
+  content: "\e92f";
+}
+.icon-osram-ne-nsoromma:before {
+  content: "\e930";
+}
+.icon-owo-foro-adobe:before {
+  content: "\e931";
+}
+.icon-owuo-atwedee:before {
+  content: "\e932";
+}
+.icon-pempamsie:before {
+  content: "\e933";
+}
+.icon-sankofa:before {
+  content: "\e934";
+}
+.icon-sesa-wo-suban:before {
+  content: "\e935";
+}
+.icon-tamfo-bebre:before {
+  content: "\e936";
+}
+.icon-wawa-aba:before {
+  content: "\e937";
+}
+.icon-woforo-dua-pa-a:before {
+  content: "\e938";
+}
+.icon-wo-nsa-da-mu-a:before {
+  content: "\e939";
+}
