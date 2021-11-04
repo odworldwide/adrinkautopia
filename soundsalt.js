@@ -1,6 +1,4 @@
-;(function () {
-
-  const sounds = new Howl({
+const sounds = new Howl({
     "src": [
       "./sounds/sounds.webm",
       "./sounds/sounds.mp3"
@@ -21,5 +19,4 @@
     }
   })
 
-  sounds.play('okandi_cmwif_m8')
-  })()
+  sounds.play('okandi_cmwif_m8');
