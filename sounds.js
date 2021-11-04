@@ -1,5 +1,3 @@
-import {Howl, Howler} from 'howler';
-
 const sounds = new Howl({
   "src": [
     "public\sounds\sounds.webm",
