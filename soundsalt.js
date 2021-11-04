@@ -8,7 +8,7 @@ const sounds = new Howl({
       0,
       783.6734693877551
     ],
-    "OKANDI_CMWIF_M8": [
+    "okandi_cmwif_m8": [
       2000,
       259715.78231292518
     ],
@@ -19,5 +19,5 @@ const sounds = new Howl({
   }
 })
 
-sounds.play('OKANDI_CMWIF_M8')
+sounds.play('okandi_cmwif_m8')
 })()
