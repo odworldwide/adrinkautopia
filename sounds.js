@@ -1,7 +1,7 @@
 const sounds = new Howl({
   "src": [
-    "public\sounds\sounds.webm",
-    "public\sounds\sounds.mp3"
+    "\sounds.webm",
+    "\sounds.mp3"
   ],
   "sprite": {
     "jump": [
